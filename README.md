@@ -6,7 +6,7 @@
 
 <h5 align="center" style="margin-top:0px;">Where a few months of my time was used
 <br>to create a website, for fun and to learn html, css and javascript
-<br>Powered by caffeine and a want for a website, developed by <a href="https://github.com/liam-s-c">ARGIL</a>.
+<br>Powered by caffeine and a want for a website, developed by <a href="https://github.com/ArgilDevs">Argil</a>.
 </h5>
 
 ----
