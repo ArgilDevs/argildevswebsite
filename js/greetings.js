@@ -24,4 +24,4 @@ var myDate = new Date();
     //     greet = 'Good Night';
 
     document.getElementById('lblGreetings').innerHTML =
-        '<b>' + greet + '</b>!';
+        '<b>' + greet + '</b>';

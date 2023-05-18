@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Titan+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 @import url("https://fonts.googleapis.com/css2?family=Crimson+Pro&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Sigmar&display=swap');
 /*  foce updating the css file dont worry about it */
 
 html {
@@ -99,8 +100,10 @@ name {
 	transform: translateX(-50%) translateY(-50%) scale(1, 1);
 	transition: 0.5s ease-in-out;
   font-size: 56px;
-  font-weight: 400;
-  font-family: 'Titan One', cursive;
+  font-weight: 900;
+  /* font-family: 'Titan One', cursive; */
+  /* font-family: 'Sigmar', sans-serif; */
+  font-family: 'Roboto', sans-serif;
   padding-bottom: 10px;
 }
 
@@ -118,9 +121,10 @@ name.top {
 name.top a{
   text-decoration: underline;
 	color: #3f6a40;
+  transition: 0.5s;
 }
 name.top a:hover {
-  color: rgba(177, 177, 177, 0.374);
+  color: white;
 }
 
 name.top-sub {
@@ -130,7 +134,7 @@ name.top-sub {
   font-size: 64px;
 	float: right;
   opacity: 100;
-  color: rgba(240, 248, 255, 0.734); 
+  color: #ffffffc4; 
   transform: translateY(210%) translateX(-50%);
   font-size: 1.3rem; margin: 0;
   font-weight: 900;
@@ -191,6 +195,11 @@ body .container .card:nth-child(2) .box .content a {
   background: #e95e1e;
 }
 
+body .container .card .box .content a:nth-child(1) {
+  font-size: larger;
+}
+
+
 body .container .card:nth-child(3) .box .content a {
   background: #20873d;
 }
@@ -235,6 +244,11 @@ body .container .card#wide{
 body .container .card#long .box a:hover{
   z-index: 1;
 }
+
+body .container .card .box a:hover{
+  z-index: 100;
+}
+
 @media only screen and (max-width: 650px) {
   body .container .card#long{height: 475px;}
 }
@@ -325,9 +339,10 @@ body .container .card .box .content .p a {
   font-weight: 650;
 }
 
+/* coming soon tm a link */
 body .container .card .box .content a#cs {background-color: black ; color: white !important; cursor: not-allowed;}
 body .container .card .box .content a#cs:hover{
-  transform: scale(102%) translateY(-0px);
+  transform: scale(105%) translateY(-0px);
 
 }
 
@@ -354,7 +369,7 @@ body .container .card .box .content a {
 }
 body .container .card .box .content a:hover {
   box-shadow: 0 15px 20px rgba(0, 0, 0, 0.6);
-  background: #fff;
+  background-color: #fff;
   color: #000;
   transform: scale(110%) translateY(-5px);
 }
@@ -390,6 +405,9 @@ body .nhcontainer .content {
 }
 
 body .nhcontainer .content h2 {
+  text-align: right;
+  margin-left: 100px; 
+  margin-right: 0px;
   font-size: 3rem;
   color: white
 }
@@ -628,7 +646,6 @@ body .nhcontainer .content li{
 /* .material-symbols-outlined {font-size: 8rem;} */
 
 .material-symbols-outlined {
-  padding-right: 0rem;
   font-size: 8rem;
   user-select: none;
   font-variation-settings:
