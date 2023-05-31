@@ -366,9 +366,9 @@ body .container .card .box .content {
 body .container .card .box .content h2 {
   position: absolute;
   top: -10px;
-  right: 30px;
+  right: 10px;
   font-size: 8rem;
-  color: rgba(255, 255, 255, 0.1);
+  color: rgba(255, 255, 255, 0.2);
   display: block;
   padding-top: 0;
   padding-right: 0;
@@ -407,6 +407,8 @@ body .container .card .box .content .p a {
   font-weight: 650;
 }
 
+
+
 /* coming soon tm a link */
 body .container .card .box .content a#cs {background-color: black ; color: white !important; cursor: not-allowed;}
 body .container .card .box .content a#cs:hover{
@@ -424,7 +426,7 @@ body .container .card .box .content .p a:hover {
 body .container .card .box .content a {
   position: relative;
   display: inline-block;
-  padding: 8px 15px;
+  padding: 5px 10px;
   background: black;
   border-radius: 5px;
   text-decoration: none;
@@ -520,7 +522,7 @@ body .nhcontainer .content .p a:hover {
 body .nhcontainer .content a {
   position: relative;
   display: inline-block;
-  padding: 8px 15px;
+  padding: 5px 10px;
   background: black;
   border-radius: 5px;
   text-decoration: none;
@@ -542,7 +544,7 @@ body .nhcontainer .content a:hover {
 body .nhcontainer .content button {
   position: relative;
   display: inline-block;
-  padding: 8px 19px;
+  padding: 5px 10px;
   background: black;
   border-radius: 5px;
   text-decoration: none;
