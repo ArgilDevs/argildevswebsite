@@ -466,6 +466,7 @@ body .nhcontainer {
 
 body .nhcontainer#about-me {
   max-width: 1200px;
+  padding-top: 28rem;
 }
 
 body .nhcontainer .content {
@@ -583,246 +584,8 @@ body .nhcontainer .youtube {
   height: 100%;
 }
 
-/* Responsive */
-/* Galaxy Fold */
-  @media only screen and (min-width: 200px) and (max-width: 300px) {
-    name.top {
-      font-size: 3rem;
-    }
+/*Phone and tablet font sizing*/
 
-    body .nhcontainer .content .p {
-      font-size: 1rem;
-    }
-
-    body .nhcontainer .content h3 {
-      font-size: 1.3rem
-    }
-
-    body .nhcontainer {
-      padding: 0;
-      margin: 0;
-      padding-top: 10rem;
-    }
-    body .nhcontainer .content {
-      padding: 0px;
-      margin-left: 8px;
-      margin-right: 8px
-    }
-
-    name {
-      padding: 0;
-    }
-
-    name.top {
-      font-size: 4rem;
-      padding-bottom: 0;
-
-    }
-
-    name.top-sub {
-      font-size: 1.4rem;
-      transform: translateY(130%);
-    }
-
-    body .nhcontainer#about-me {
-      padding-bottom: 7.5rem;
-    }
-    
-  }
-/* End of galaxy fold */
-/* Iphone SE */
-@media only screen and (min-width: 301px) and (max-width: 375px) {
-  name.top {
-    font-size: 3rem;
-  }
-
-  body .nhcontainer .content .p {
-    font-size: 1rem;
-  }
-
-  body .nhcontainer .content h3 {
-    font-size: 1.3rem
-  }
-
-  body .nhcontainer {
-    padding: 0;
-    margin: 0;
-    transform: translateY(280%);
-    margin-left: 18px;
-    margin-right: 18px;
-  }
-  body .nhcontainer .content {
-    padding: 0px;
-  
-  }
-
-  name {
-    padding: 0;
-  }
-
-  name.top {
-    font-size: 4rem;
-    padding-bottom: 0;
-
-  }
-
-  name.top-sub {
-    font-size: 1.4rem;
-    transform: translateY(130%);
-  }
-
-  body .nhcontainer#about-me {
-    padding-bottom: 7.5rem;
-  }
-  
-}
-/* end of iPhone SE */
-/* Start of iPhone XR */
-@media only screen and (min-width: 400px) and (max-width: 430px) {
-  name.top {
-    font-size: 3rem;
-  }
-
-  body .nhcontainer .content .p {
-    font-size: 1rem;
-  }
-
-  body .nhcontainer .content h3 {
-    font-size: 1.3rem
-  }
-
-  body .nhcontainer {
-    padding: 0;
-    margin: 0;
-    transform: translateY(50%);
-    padding-top: 0rem;
-    margin-left: 18px;
-    margin-right: 18px;
-  }
-  body .nhcontainer .content {
-    padding: 0px;
-    
-  }
-
-  name {
-    padding: 0;
-  }
-
-  name.top {
-    font-size: 4rem;
-    padding-bottom: 0;
-
-  }
-
-  name.top-sub {
-    font-size: 1.1rem;
-    transform: translateY(300%);
-  }
-
-  body .nhcontainer#about-me {
-    padding-bottom: 7.5rem;
-  }
-  
-}
-
-
-@media only screen and (max-width: 1000px) {
-
-  name.top-sub {
-    font-size: 1.1rem;
-    transform: translateY(300%);
-  }
-
-  body .nhcontainer .content .p {
-    font-size: 1rem;
-  }
-
-  body .nhcontainer .content h3 {
-    font-size: 1.3rem
-  }
-  body .container .card .box .content h3 { 
-    font-size: 1.625rem;
-  }
-
-  body .container .card .box .container h2 {
-    font-size: 4rem;
-  }
-
-  body .container .card .box .content p {
-    font-size: 0.95rem;
-  }
-  
-  body .container .card .box .content a {
-    font-size: 0.9rem;
-  }
-
-  body .container .card .box .content a:hover {
-    transform: scale(105%) translateY(-2.5px);
-  }
-
-  body .container .card .box:hover {
-    transform: scale(102.5%);
-  }
-
-  .material-icons-outlined.md-8r {
-    padding-right: 5.6rem;
-  }
-  
-
-  body .nhcontainer {
-    padding: 0;
-    margin: 0;
-    transform: translateY(50%);
-    padding-top: 0rem;
-  }
-
-  body .nhcontainer .content {
-    margin-left: 0px; 
-    margin-right:0px;
-  }
-
-  body .nhcontainer#aboutme .content p {
-    font-size: 20px!important;
-  }
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* Phone and tablet font sizing
 @media only screen and (max-width: 1600px) {
   body .nhcontainer {
     padding-top: 2.5rem;
@@ -845,7 +608,7 @@ body .nhcontainer .youtube {
 
 @media only screen and (max-width: 1100px) {
   body .nhcontainer {
-    padding-top: 6.5rem;
+    padding-top: 8.5rem;
   }
   body .nhcontainer .content {
     margin-left: 30px; 
@@ -854,6 +617,18 @@ body .nhcontainer .youtube {
 }
 
 @media only screen and (max-width: 1000px) {
+  name.top {
+    font-size: 44px;
+    padding-bottom: 5px;
+  }
+  name.top-sub {
+    margin: 0;
+    padding-top: 0vh;
+    transform: translateY(150%);
+    width: 100%;
+    text-align: center;
+    /* transform: translateY(150%) translateX(-50%); */
+  }
 
   body .container .card .box .content h3 { 
     font-size: 1.625rem;
@@ -885,12 +660,13 @@ body .nhcontainer .youtube {
 
 
   body .nhcontainer {
-    padding-top: 5rem;
+    padding-top: 1rem;
+    /* transform: scale(80%); */
   }
 
   body .nhcontainer .content {
-    margin-left: 0px; 
-    margin-right:0px;
+    margin-left: 10px; 
+    margin-right:10px;
   }
 
   body .nhcontainer .content h2 {
@@ -898,72 +674,38 @@ body .nhcontainer .youtube {
   }
 
   body .nhcontainer .content p {
-    font-size: 20px;
-  }
-
-  body .nhcontainer#aboutme .content p {
-    font-size: 20px!important;
+    font-size: 0.95rem;
   }
 }
 
-
-/* @media only screen and (max-width: 800px) {
-
-} 
-
-@media only screen and (max-width: 700px) {
-  body .nhcontainer {
-    padding-top: 30vh;
-  }
-
-  body .nhcontainer#about-me {
-    padding-bottom: 4.5rem;
-  }
-}
-
-@media only screen and (max-width: 650px) {
-  body .container .card#long{height: 475px;}
-}
 
 @media only screen and (max-width: 600px) {
   body .nhcontainer {
     padding: 0;
     margin: 0;
-    padding-top: 30rem;
+    padding-top: 1rem;
   }
   body .nhcontainer .content {
     padding: 0px;
     margin-left: 8px;
     margin-right: 8px
   }
-  name.top {
-    font-size: 3.5rem;
-    padding-bottom: 0.3%;
-
-  }
-
   name.top-sub label#lblGreetings{
     font-size: 1rem;
-    transform: translateY(100%);
   }
-
   body .nhcontainer#about-me {
-    padding-bottom: 7.5rem;
+    padding-top: 30rem;
+    padding-bottom: 4.5rem;
   }
 
 }
 
-
-
-@media only screen and (max-width: 550px) {
-  body .container .card#long{height: 900px;}
+@media only screen and (max-width: 400px) {
+  body .nhcontainer#about-me {
+    padding-bottom: 7rem;
+  }
 }
 
-@media only screen and (max-width: 490px) {
-  body .nhcontainer#about-me {
-    padding-bottom: 12rem;
-  }
-} */
 
 
 
