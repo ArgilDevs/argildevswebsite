@@ -7,12 +7,15 @@ var myDate = new Date();
         'Listening to music constantly',
         'Automating 5 minute tasks obsessive',
         'Watching the same shows in repeat',
+        'Writing scripts and playlist titles',
         'Resident technology bastard'
 
     ];
 
     var randomNumber = Math.floor(Math.random()*greetingsArray.length);
     var greet= greetingsArray[randomNumber];
+    var greet= greetingsArray[3];
+
 
     // if (hrs < 12 && hrs >= 4)
     //     greet = 'Listening to music ';
