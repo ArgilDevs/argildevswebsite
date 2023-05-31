@@ -342,13 +342,23 @@ body .container .card .box {
   transition: 0.5s;
 }
 
-body .container .card .box#img {
+body .container .card .box#img::before{
+  content: ' ';
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0.2;
   padding: 0;
   margin: 0;
   background-image: url(https://argil.dev/img/argils-recap.png);
   background-position: right 15px top 20px;
   background-size: 120px 120px;
   background-repeat: no-repeat;
+  opacity: 0.6;
+  z-index: 0;
 } 
 
 body .container .card .box:hover {
@@ -369,7 +379,7 @@ body .container .card .box:before {
 body .container .card .box .content {
   padding: 20px;
   text-align: center;
-
+  z-index: 1;
 }
 
 body .container .card .box .content h2 {
