@@ -471,7 +471,7 @@ body .nhcontainer#about-me {
 body .nhcontainer .content {
   padding: 20px;
   text-align: center;
-  transform: translateY(-15rem);
+  transform: translateY(-20rem);
   /* margin-left: 10px; 
   margin-right: 50px; */
 }
@@ -535,7 +535,7 @@ body .nhcontainer .content a:hover {
   background: #fff !important;
   color: #000;
   transform: scale(110%) translateY(-5px);
-  z-index: 1000000;
+  z-index: 100;
 }
 
 body .nhcontainer .content button {
@@ -647,12 +647,13 @@ body .nhcontainer .youtube {
   body .nhcontainer {
     padding: 0;
     margin: 0;
-    padding-top: 10rem;
+    transform: translateY(280%);
+    margin-left: 18px;
+    margin-right: 18px;
   }
   body .nhcontainer .content {
     padding: 0px;
-    margin-left: 8px;
-    margin-right: 8px
+  
   }
 
   name {
@@ -693,13 +694,14 @@ body .nhcontainer .youtube {
   body .nhcontainer {
     padding: 0;
     margin: 0;
-    transform: translateY(-30%);
+    transform: translateY(50%);
     padding-top: 0rem;
+    margin-left: 18px;
+    margin-right: 18px;
   }
   body .nhcontainer .content {
     padding: 0px;
-    margin-left: 8px;
-    margin-right: 8px
+    
   }
 
   name {
@@ -713,14 +715,75 @@ body .nhcontainer .youtube {
   }
 
   name.top-sub {
-    font-size: 1.2rem;
-    transform: translateY(250%);
+    font-size: 1.1rem;
+    transform: translateY(300%);
   }
 
   body .nhcontainer#about-me {
     padding-bottom: 7.5rem;
   }
   
+}
+
+
+@media only screen and (max-width: 1000px) {
+
+  name.top-sub {
+    font-size: 1.1rem;
+    transform: translateY(300%);
+  }
+
+  body .nhcontainer .content .p {
+    font-size: 1rem;
+  }
+
+  body .nhcontainer .content h3 {
+    font-size: 1.3rem
+  }
+  body .container .card .box .content h3 { 
+    font-size: 1.625rem;
+  }
+
+  body .container .card .box .container h2 {
+    font-size: 4rem;
+  }
+
+  body .container .card .box .content p {
+    font-size: 0.95rem;
+  }
+  
+  body .container .card .box .content a {
+    font-size: 0.9rem;
+  }
+
+  body .container .card .box .content a:hover {
+    transform: scale(105%) translateY(-2.5px);
+  }
+
+  body .container .card .box:hover {
+    transform: scale(102.5%);
+  }
+
+  .material-icons-outlined.md-8r {
+    padding-right: 5.6rem;
+  }
+  
+
+  body .nhcontainer {
+    padding: 0;
+    margin: 0;
+    transform: translateY(50%);
+    padding-top: 0rem;
+  }
+
+  body .nhcontainer .content {
+    margin-left: 0px; 
+    margin-right:0px;
+  }
+
+  body .nhcontainer#aboutme .content p {
+    font-size: 20px!important;
+  }
 }
 
 
