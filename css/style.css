@@ -372,8 +372,17 @@ body .container .card .box .content h2 {
   display: block;
   padding-top: 0;
   padding-right: 0;
+  z-index: 0;
 }
 
+body .container .card .box#img {
+  padding: 0;
+  margin: 0;
+  background-image: url(/img/argils-recap.png);
+  background-position: right 15px top 20px;
+  background-size: 120px 120px;
+  background-repeat: no-repeat;
+}
 
 body .container .card .box .content h3 {
   font-size: 1.8rem;
@@ -774,14 +783,10 @@ body .nhcontainer .youtube {
 
 /*Img things*/
 img {
-    position: absolute;
-    top: 8px;
-    left: 1vh;
-    font-size: 18px;
-    display: flex;
-    flex-wrap:wrap;
-    transform: scale(120%) translateY(30%)
-}
+    /* transform: translateY(50%) translatex(-100%) */
+    filter: opacity(50%);
+    z-index: 0;
+  }
 
 .responsive {
     width: 100%;
