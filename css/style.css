@@ -391,7 +391,7 @@ body .container .card .box .content h2 {
   display: block;
   padding-top: 0;
   padding-right: 0;
-  z-index: 0;
+  z-index: -1;
 }
 
 body .container .card .box .content h3 {
