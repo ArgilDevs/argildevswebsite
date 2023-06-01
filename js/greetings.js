@@ -8,13 +8,14 @@ var myDate = new Date();
         'Automating 5 minute tasks obsessive',
         'Watching the same shows in repeat',
         'Writing scripts and playlist titles',
+        'Probably eating something, anything',
         'Resident technology bastard'
 
     ];
 
     var randomNumber = Math.floor(Math.random()*greetingsArray.length);
     var greet= greetingsArray[randomNumber];
-    var greet= greetingsArray[3];
+    // var greet= greetingsArray[3];
 
 
     // if (hrs < 12 && hrs >= 4)
