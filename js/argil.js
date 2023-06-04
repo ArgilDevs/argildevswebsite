@@ -23,6 +23,7 @@ var x = setInterval(function() {
   // If the count down is finished, write some text
   if (distance < 0) {
     clearInterval(x);
-    document.getElementById("countdown").innerHTML = "NOW ITS OUT ITS OUT";
+    document.getElementById("countdown").innerHTML = "OUT ITS OUT RIGHT NOW, LISTEN BELOW:";
+    document.getElementById("countdown-text").innerHTML = "First Episode is"
   }
 }, 1000);
