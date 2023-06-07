@@ -114,8 +114,23 @@ body {
 
 /* colors */
 *  { 
-  --argil-green: #3f6a40
+  --argil-green: #3f6a40;
+  --card-1: #2196f3;
+  --card-2: #e95e1e;
+  --card-3: #20873d;
+  --card-4: #211333;
+  --card-5: #a432c0;
+  --card-6: #c13323;
+  --card-7: #213833;
+  --card-8: #17333b;
+  --card-9: #b756c0;
+
+
+
+
 }
+
+
 
 /* fade in */
     body {
@@ -311,45 +326,55 @@ body .container .card#wide .box .content h2 {
   box-shadow: 0px 0px 6px 13px #2195f317;
 } */
 
+/* Colors depending on what card it is */
 
 body .container .card:nth-child(1) .box .content a {
-  background: #2196f3;
-
+  background: var(--card-1);
 }
+
 
 body .container .card:nth-child(2) .box .content a {
-  background: #e95e1e;
+  background: var(--card-2);
 }
 
+
 body .container .card:nth-child(3) .box .content a {
-  background: #20873d;
+  background: var(--card-3);
 }
 
 body .container .card:nth-child(4) .box .content a {
-    background: #211333;
+  background: var(--card-4);
 }
+
 
 body .container .card:nth-child(5) .box .content a {
-    background: #a432c0;
+  background: var(--card-5);
 }
+
 
 body .container .card:nth-child(6) .box .content a {
-    background: #c13323;
+  background: var(--card-6);
 }
+
 
 body .container .card:nth-child(7) .box .content a {
-  background: #213833;
+  background: var(--card-7);
 }
 
+
 body .container .card:nth-child(8) .box .content a {
-  background: #17333b;
+  background: var(--card-8);
 }
 
 
 body .container .card:nth-child(9) .box .content a {
-  background: #b756c0;
+  background: var(--card-9);
 }
 
+
+
+
+/* END OF THAT*/
 
 
 
@@ -408,7 +433,7 @@ body .container .card .box:hover {
 }
 
 body .container .card .box:hover > .content h2 {
-  opacity: 50%;
+  opacity: 20%;
   z-index: 1;
 }
 
@@ -416,9 +441,6 @@ body .container .card#long .box:hover > .content h2 {
   opacity: 70%;
   z-index: 1;
 }
-
-
-
 
 body .container .card .box:before {
   content: "";
@@ -437,22 +459,20 @@ body .container .card .box .content {
 
 body .container .card .box .content h2 {
   position: absolute;
-  top: -10px;
+  top: 0px;
   right: 10px;
   font-size: 8rem;
-  color: rgb(131, 131, 131);
-  opacity: 30%;
-  display: block;
-  padding-top: 0;
-  padding-right: 0;
-  z-index: 1;
+  color: rgb(255, 255, 255);
+  opacity: 15%;
+  display: flex;
+  z-index: 0;
   transition: 0.5s;
 }
 
 body .container .card .box .content h3 {
   font-size: 1.8rem;
   color: #fff;
-  z-index: 2;
+  z-index: 3;
   transition: 0.0s;
   margin-bottom: 15px;
 }
@@ -460,7 +480,7 @@ body .container .card .box .content h3 {
 body .container .card .box .content .p {
   font-size: 1rem;
   font-weight: 400;
-  color: rgba(255, 255, 255, 0.9);
+  color: #eee;
   z-index: 2;
   transition: 0.0s;
 }
